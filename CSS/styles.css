@@ -41,7 +41,7 @@ body {
 
 .portfolio-container {
 	width: 1200px;
-	padding: 0 0;
+	/* padding: 0 0; */
 }
 
 .nav {
@@ -153,9 +153,7 @@ body {
 
 .hero-button {
 	font-family: inherit;
-	align-items: center;
-	text-align: center;
-	border:none;
+	border: none;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.88;
@@ -165,7 +163,10 @@ body {
 	min-width: 216px;
 	height: 50px;
 	border-radius: 4px;
-	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 32px;
+	padding-right: 32px;
 }
 
 .hero-buttom:hover, .hero-buttom:focus {
@@ -186,7 +187,7 @@ body {
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--link-color);
-	padding-bottom: 50px;
+	margin-bottom: 50px;
 
 }
 
@@ -223,7 +224,7 @@ body {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--link-color);
-	padding-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .benefit-paragraph {
@@ -236,6 +237,7 @@ body {
 
 .whatwedo-section {
 	background-color: var(--body-color);
+	padding-bottom: 94px;
 }
 
 .whatwedo-list {
@@ -279,15 +281,23 @@ body {
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--link-color);
-	padding-top: 30px;
-	padding-bottom: 10px;
+	margin-bottom: 10px;
+	align-items: center;
+	justify-content: center;
 }
+
+.team-description {
+	padding-top: 30px;
+	padding-bottom: 30px;	
+}
+
 .our-team-p {
 	font-size: 16px;
 	line-height: 1.19;
 	text-align: center;
 	letter-spacing: 0.03em;	
-	padding-bottom: 30px;
+	align-items: center;
+	justify-content: center;
 	}
 
 /* -------------FOOTER------------- */
@@ -296,6 +306,10 @@ body {
 	background-color: var(--footer-color);
 	padding-top: 60px;
 	padding-bottom: 60px;
+}
+
+.footer-studio {
+ color: #FFFFFF
 }
 
 .address {
@@ -344,6 +358,7 @@ body {
 }
 
 .portolio {
+	background-color: #FFFFFF;
 }
 
 .hero-portfolio {
@@ -369,18 +384,24 @@ body {
 .portfolio-item {
 	text-decoration: none;
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	/* margin: 0;
+	padding: 0; */
 }
 
 .portfolio-btm {
+	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
 	letter-spacing: 0.03em;
 	color: #212121;
+	background-color: #F5F4FA;
 	border-radius: 4px;
-
+	border-color: transparent;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 22px;
+	padding-right: 22px;
 }
 
 .portfolio-btm:hover, .portfolio-btm:focus {	
@@ -401,6 +422,13 @@ body {
 }
 .descr-item {
 	display: block;
+	background-color: #EEEEEE;
+}
+
+.portfolio-descriprion {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 24px;
 	background-color: #FFFFFF;
 }
 
@@ -410,9 +438,7 @@ body {
 	line-height: 2;
 	letter-spacing: 0.06em;
 	color: #212121;
-	padding-top: 20px;
-	padding-bottom: 4px;
-	padding-left: 24px;
+	margin-bottom: 4px;
 }
 
 .descr-p {
@@ -420,6 +446,4 @@ body {
 	line-height: 1.88;
 	letter-spacing: 0.03em;
 	color: #757575;
-	padding-left: 24px;
-	padding-bottom: 20px;
 }

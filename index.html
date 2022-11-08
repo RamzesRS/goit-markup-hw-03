@@ -21,13 +21,13 @@
     <header class="header">
       <div class="container container-header">
         <nav class="nav">
-          <a class="logo container-header" href="/"
+          <a class="logo container-header" href="./index.html"
             ><span class="web">Web</span>Studio</a
           >
           <!-- <img src="./images/web-studio-logo.svg" alt="website logo"> -->
           <ul class="nav-items container-header">
             <li class="nav-item">
-              <a class="nav-item-links" href="/">Студія</a>
+              <a class="nav-item-links" href="./index.html">Студія</a>
             </li>
             <li class="nav-item">
               <a class="nav-item-links" href="./portfolio.html">Портфоліо</a>
@@ -52,13 +52,15 @@
       </div>
     </header>
     <main>
-      <div class="container">
-        <section class="hero-section section">
+      <section class="hero-section section">
+        <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           <button class="hero-button" type="button">Замовити послугу</button>
-        </section>
-        <!-- Альтернатива: Заголовки H3 можна зробити тільки з одной заглавною буквою, а потім через CSS зробити стилі -->
-        <section class="benefits section">
+        </div>
+      </section>
+      <!-- Альтернатива: Заголовки H3 можна зробити тільки з одной заглавною буквою, а потім через CSS зробити стилі -->
+      <section class="benefits section">
+        <div class="container">
           <h2 class="general-title hidden">Наші переваги</h2>
           <ul class="benefits-items">
             <li class="benefit-item">
@@ -89,8 +91,10 @@
               </p>
             </li>
           </ul>
-        </section>
-        <section class="whatwedo-section">
+        </div>
+      </section>
+      <section class="whatwedo-section">
+        <div class="container">
           <h2 class="general-title">Чим ми займаємося</h2>
           <ul class="whatwedo-list">
             <li class="whatwedo-item">
@@ -118,8 +122,10 @@
               />
             </li>
           </ul>
-        </section>
-        <section class="our-team-section section">
+        </div>
+      </section>
+      <section class="our-team-section section">
+        <div class="container">
           <h2 class="general-title">Наша команда</h2>
           <ul class="our-team-list">
             <li class="our-team-item">
@@ -130,8 +136,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="our-team-heading">Ігор Дем'яненко</h3>
-              <p class="our-team-p">Product Designer</p>
+              <div class="team-description">
+                <h3 class="our-team-heading">Ігор Дем'яненко</h3>
+                <p class="our-team-p">Product Designer</p>
+              </div>
             </li>
             <li class="our-team-item">
               <img
@@ -141,8 +149,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="our-team-heading">Ольга Рєпіна</h3>
-              <p class="our-team-p">Frontend Developer</p>
+              <div class="team-description">
+                <h3 class="our-team-heading">Ольга Рєпіна</h3>
+                <p class="our-team-p">Frontend Developer</p>
+              </div>
             </li>
             <li class="our-team-item">
               <img
@@ -152,10 +162,11 @@
                 width="270"
                 height="260"
               />
-              <h3 class="our-team-heading">Микола Тарасов</h3>
-              <p class="our-team-p">Marketing</p>
+              <div class="team-description">
+                <h3 class="our-team-heading">Микола Тарасов</h3>
+                <p class="our-team-p">Marketing</p>
+              </div>
             </li>
-
             <li class="our-team-item">
               <img
                 class="ourteam-img"
@@ -164,17 +175,20 @@
                 width="270"
                 height="260"
               />
-              <h3 class="our-team-heading">Михайло Єрмаков</h3>
-              <p class="our-team-p">UI Designer</p>
+              <div class="team-description">
+                <h3 class="our-team-heading">Михайло Єрмаков</h3>
+                <p class="our-team-p">UI Designer</p>
+              </div>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <div class="container">
-        <a class="logo footer-logo" href="/"
-          ><span class="web">Web</span>Studio</a
+        <a class="logo footer-logo" href="/index.html"
+          ><span class="web">Web</span
+          ><span class="footer-studio">Studio</span></a
         >
         <address class="address">
           <ul class="address-list">
